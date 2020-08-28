@@ -1,0 +1,147 @@
+*{margin:0; padding:0; border:0; box-sizing: border-box;}
+.header{width: 100%; height: 110px; text-transform: uppercase; color: #555555; letter-spacing: 2.5px; font-weight: bold; border-bottom: 1px solid gray;}
+.header .menu{display:flex; width:100%; height:100%;margin: auto; justify-content: center;}
+.header .menu .nav-menu{width: 23%;}
+.header .nav-menu ul{display: inline-flex; margin-top: 20px;}
+.header .nav-menu ul li{list-style-type: none; font-size: 16px; font-weight: bold; width: 165px; padding: 25px 0px;}
+.header .nav-menu ul li:nth-child(2){padding-left: 15px;}
+.header .nav-menu ul li a{text-decoration: none; color: #555555;}
+.header .nav-menu ul li a:hover{position: relative; border-bottom: 1px solid #3c5e2c; color: #3c5e2c;}
+.header .nav-menu ul li a:hover::after{width: 100%; transform: width 5s;}
+.header .nav-menu .wrap-drop{display: none;}
+.header .nav-menu ul li:hover .wrap-drop{display: block; position: relative; width: 200px; margin-top: 20px; margin-left: -20px; z-index: 9; background-color: white; box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);border-radius: 0px 0px 7px 7px;animation-name: cd;animation-duration: 0.4s;}
+.header .nav-menu ul li:hover .wrap-drop ul{display: block;margin: 8px 0 8px 15px;}
+.header .nav-menu ul li:hover .wrap-drop ul li{padding: 10px;background: transparent; border-bottom: 0.5px solid #ddd; text-align: left; letter-spacing: 3px; text-transform: capitalize;font-size: 14px;}
+.header .nav-menu ul li:hover .wrap-drop ul li:last-child{border-bottom: none;}
+.header .logo-brand{width: 8%; height: 50%; margin: 35px 50px 0 50px;} 
+.header .brand{width: 77%; margin: auto;}
+.header .brand img{width: 84.23px; height: 42px; max-width: 100%; object-fit: contain;}
+/*--end header--*/
+ ul {
+    list-style: none;
+  }
+  .portfolio {
+    margin: 50px auto;
+
+  }
+  .portfolio h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  /* line của h2 */
+  .portfolio h2:after {
+    background-color: #339999;
+    content: "";
+    display: block;
+    height: 3px;
+    margin: 11px auto 30px;
+    position: relative;
+    width: 150px;
+  }
+.portfolio .galerry {
+    background-color: #fff;
+    padding: 10px;
+    padding-bottom: 6px;
+  }
+  .portfolio .galerry li {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 22px;
+    width: 350px;
+  }
+  .portfolio .galerry li:nth-child(3n) {
+    margin-right: 0;
+  }
+  .portfolio .galerry li:nth-last-of-type(-n+3) {
+    margin-bottom: 0;
+  }
+
+
+
+
+.bgfot
+{
+	margin-top: 100px;
+	height:1px; 
+	background-color: #3c5e2c;
+}
+div.footer
+{
+	padding:0 100px;
+}
+.contact{
+	padding-top: 25px;
+	max-width: 960px;
+	height: auto;
+	display: grid;
+	grid-template-columns: 480px auto;
+	margin: auto;
+}
+.contact h2{
+	font-size: 15px;
+	text-transform: uppercase;
+	color:  #3c5e2c;
+	padding-bottom: 5px;
+}
+
+
+.left .fa{
+	padding: 8px 8px;
+	color: #3c5e2c;
+	font-size: 25px;
+	width: 35px;
+	height: 10px;
+}
+
+/*form email*/
+ .right .form{
+	margin: 10px 0;
+}
+.form .email{
+	width: 250px;
+	height: 33px;
+	padding: 8px 8px;
+	border: 1px solid gray;
+	font-size: 12px;
+	color: #b4b9bc;
+}
+ .form .email:focus{
+	border: 1px solid #3c5e2c;
+}
+.form .btn{
+	width: 95px;
+	height: 33px;
+	padding: 8px 8px;
+	background-color: #3c5e2c;
+	color: white;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bold;
+	cursor: pointer;
+}
+ .form p{
+	margin-top: 10px;
+	font-size: 14px;
+	color: #b4b9bc;
+}
+.bottom{
+	width: auto;
+	height: 60px;
+	font-size: 11px;
+    border-top: 1px solid #232323;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #3c5e2c;
+    color: #fff;
+    font-weight: bold;
+}
+.bottom .copyright{
+	max-width: 960px;
+	margin: auto;
+	letter-spacing: 2px;
+}
+.bottom .copyright span{
+	text-transform: uppercase;
+}
